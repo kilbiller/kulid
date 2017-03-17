@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "05bb39ee5345d43ea887af9d64c454c6",
+    "content-hash": "149d06454af9118da27de9a960a56f9c",
     "packages": [
         {
             "name": "kahlan/kahlan",
@@ -68,6 +68,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0"
+    },
     "platform-dev": []
 }

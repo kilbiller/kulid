@@ -1,6 +1,8 @@
 {
     "name": "kilbiller/kulid",
     "description": "Generate cool ids a la Stripe",
+	"type": "library",
+	"license": "MIT",
     "authors": [
         {
             "name": "Rémy Peru",
