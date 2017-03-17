@@ -13,4 +13,4 @@ test:
     - composer --version
     - composer run test:coverage
   post:
-    - bash <(curl -s https://codecov.io/bash) -t c11181e9-9f26-4f9c-9b4b-c93bbc8bd47f
+    - bash <(curl -s https://codecov.io/bash) -t 0fc1e7bf-9e25-4098-8c03-054919bd2d15
