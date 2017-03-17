@@ -1,0 +1,22 @@
+{
+    "name": "kilbiller/kulid",
+    "description": "Generate nice ids a la Stripe",
+    "authors": [
+        {
+            "name": "Rémy Peru",
+            "email": "peru.remy@gmail.com"
+        }
+    ],
+    "require": {
+        "kahlan/kahlan": "^3.1"
+    },
+	"autoload": {
+		"psr-4": {
+			"Kulid\\": "src/"
+		}
+	},
+	"scripts": {
+		"test": "kahlan --spec=tests --pattern=*Test.php",
+		"test:coverage": "kahlan --spec=tests --pattern=*Test.php --coverage=4 --clover=clover.xml"
+	}
+}
