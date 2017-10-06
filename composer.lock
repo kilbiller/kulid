@@ -4,24 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "149d06454af9118da27de9a960a56f9c",
-    "packages": [
+    "content-hash": "71b10950fe83c850d3a41908034f0a45",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "kahlan/kahlan",
-            "version": "3.1.8",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kahlan/kahlan.git",
-                "reference": "cf150eb90682e6d72908baeda338701b80dfee4b"
+                "reference": "062b02c013eea0d3c191e45784c8b1ed2d042456"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/cf150eb90682e6d72908baeda338701b80dfee4b",
-                "reference": "cf150eb90682e6d72908baeda338701b80dfee4b",
+                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/062b02c013eea0d3c191e45784c8b1ed2d042456",
+                "reference": "062b02c013eea0d3c191e45784c8b1ed2d042456",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=5.5"
             },
             "require-dev": {
                 "squizlabs/php_codesniffer": "^2.7"
@@ -35,7 +36,6 @@
                     "Kahlan\\": "src/"
                 },
                 "files": [
-                    "src/init.php",
                     "src/functions.php"
                 ]
             },
@@ -59,10 +59,9 @@
                 "testing",
                 "unit test"
             ],
-            "time": "2017-02-14T12:52:42+00:00"
+            "time": "2017-10-05T23:35:23+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
